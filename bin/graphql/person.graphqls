@@ -16,3 +16,7 @@ type Query {
 	getPerson:[Person]
 }
 
+type Subscription {
+	getPersons:[Person]
+}
+
